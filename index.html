@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anurak Presentation</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://cdn.emailjs.com/dist/email.min.js"></script>
+</head>
+<body>
+    <!-- ส่วนหัวของเว็บ -->
+    <header>
+        <h1>Wellcome to Anurak Workshops Website</h1>
+    </header>
+    
+    <!-- เนื้อหาหลัก -->
+    <main>
+        <p class="highlighted-text">นี่คือเว็บไซต์สร้างขึ้นโดยใช้Chat AIช่วยในการสร้องเว็ปไซต์นำเสนองาน</p>
+        
+        <!-- เกี่ยวกับฉัน -->
+        <section id="about">
+            <h2>เกี่ยวกับฉัน</h2>
+            <img src="your-image.jpg" alt="Your Image" class="profile-img">
+            <div class="content">
+                <h2>สวัสดี! ฉันชื่อ [ชื่อของคุณ]</h2>
+                <p>
+                    สวัสดีครับ/ค่ะ! ฉันเป็นนักพัฒนาเว็บไซต์ที่มีความสนใจในการสร้างสรรค์
+                    เว็บไซต์ที่มีประสิทธิภาพและสวยงาม ฉันสนใจการเขียนโปรแกรม, การออกแบบ UI/UX,
+                    และการพัฒนาเว็บแอปพลิเคชัน
+                </p>
+                <h3>ทักษะของฉัน:</h3>
+                <ul>
+                    <li>HTML, CSS, JavaScript</li>
+                    <li>React, Vue.js</li>
+                    <li>Git, GitHub</li>
+                    <li>Responsive Design</li>
+                </ul>
+            </div>
+        </section>
+
+        <section class="portfolio">
+            <!-- โปรเจกต์ 1 -->
+            <div class="project">
+                <img src="project1.jpg" alt="Project 1">
+                <h3>โปรเจกต์ 1: เว็บไซต์บล็อกออนไลน์</h3>
+                <p>เว็บไซต์นี้สร้างขึ้นเพื่อให้ผู้ใช้สามารถเขียนและแชร์บทความออนไลน์ได้ง่าย ๆ โดยใช้ HTML, CSS, JavaScript</p>
+                <a href="https://example.com" target="_blank">ดูรายละเอียด</a>
+            </div>
+    
+            <!-- โปรเจกต์ 2 -->
+            <div class="project">
+                <img src="project2.jpg" alt="Project 2">
+                <h3>โปรเจกต์ 2: แอปพลิเคชันการจัดการงาน</h3>
+                <p>แอปพลิเคชันนี้ถูกพัฒนาเพื่อช่วยให้ผู้ใช้สามารถจัดการงานและเตือนความจำได้อย่างมีประสิทธิภาพ</p>
+                <a href="https://example.com" target="_blank">ดูรายละเอียด</a>
+            </div>
+    
+            <!-- โปรเจกต์ 3 -->
+            <div class="project">
+                <img src="project3.jpg" alt="Project 3">
+                <h3>โปรเจกต์ 3: ร้านค้าออนไลน์</h3>
+                <p>เว็บไซต์ร้านค้าออนไลน์นี้มีระบบตะกร้าสินค้าและการชำระเงินออนไลน์สำหรับการซื้อสินค้าทางอินเทอร์เน็ต</p>
+                <a href="https://example.com" target="_blank">ดูรายละเอียด</a>
+            </div>
+        </section>
+    </main>
+    
+    <!-- ส่วนท้าย -->
+    <footer id="footer">
+        <p>ติดต่อ: 
+            <br>
+            Email: Lachee452@gmail.com 
+            <br>
+            Line: Lanurak42
+            <br>
+            Phone: 099-4170-129
+        </p>
+    </footer>
+    
+    <!-- ฟอร์มติดต่อ -->
+    <section id="contact">
+        <h2>ติดต่อฉัน</h2>
+        <form id="contact-form">
+            <label for="name">ชื่อ</label>
+            <input type="text" id="name" name="name" required>
+    
+            <label for="email">อีเมล</label>
+            <input type="email" id="email" name="email" required>
+    
+            <label for="message">ข้อความ</label>
+            <textarea id="message" name="message" required></textarea>
+    
+            <!-- reCAPTCHA Widget -->
+            <div class="g-recaptcha" data-sitekey="YOUR_SITE_KEY"></div>
+    
+            <button type="submit">ส่งข้อความ</button>
+        </form>
+        <p id="form-status"></p>
+    </section>
+    
+    <!-- โหลด reCAPTCHA API -->
+    <script src="https://www.google.com/recaptcha/api.js" async defer></script>
+    <script src="script.js"></script>
+</body>
+</html>
